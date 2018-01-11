@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <title>Paintings and Geography</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="node_modules/nvd3/build/nv.d3.min.css" type="text/css" media="screen">
+        
+        <script src="node_modules/d3/d3.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="node_modules/d3-queue/build/d3-queue.js" type="text/javascript" charset="utf-8"></script>
+        <script src="node_modules/colorbrewer/colorbrewer.js" type="text/javascript" charset="utf-8"></script>
+        <script src="node_modules/nvd3/build/nv.d3.min.js" type="text/javascript" charset="utf-8"></script>
+        <style>
+div.tooltip {
+    position: absolute;   
+    text-align: center;   
+    width: 45px;     
+    height: 35px;     
+    padding: 2px;    
+    font: 12px sans-serif;  
+    background: white; 
+    border: 1px solid black;  
+    border-radius: 4px;   
+    pointer-events: none;   
+}
+div#chart1 {
+    width: 100%;
+    height: 500px;
+}
+
+#test1 {
+    width: 80%;
+    height: 300px;
+}
+  
+</style>
+    </head>
+    <body id="index">
+        <div class="container">
+            <h1 id="geography_of_paintings">Geography of Paintings</h1>
+            <div class="row">
+                <div id="mappa" class="col-xs-12">
+                    
+                </div>
+            <div class="col-xs-12 titolo_col1" id="colonna1"> <h4>Seleziona uno stato</h4>
+            </div>
+                
+            </div>
+
+
+            <div class="row">
+                <h2 id="museum">All locations</h2>
+            </div>
+            <div class="row">
+
+            <div class="row">
+                <div id="chart11" class="col-md-4">
+                    <svg></svg>
+                </div>
+                <div id="chart2" class="col-md-4">
+                    b
+                </div>
+                <div id="chart3" class="col-md-4">
+                    c
+                </div>
+            </div>
+                
+
+        </div>
+        <div id="chart1">
+                    <svg></svg>
+                </div>
+<div id="test1" class='with-3d-shadow with-transitions'>
+    <svg></svg>
+</div>
+        <script src="es1.js" type="text/javascript" charset="utf-8"></script>
+        <script src="es2.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="main_pr.js" type="text/javascript" charset="utf-8"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  line-height: 1.2;
+}
+
+h1 {
+	text-align: center;
+}
+
+#scritta {
+	width:870px;
+	position:relative;
+	top:30px;
+	border-style: solid;
+	border-color: black; }
+
+#scritta p {
+	font-family: 'Spectral', serif;
+  	font-size: 20px;
+  	line-height: 150%;
+}
+
+
+
+#foto {
+	float:right;
+	position: relative;
+	top: -395px;
+}

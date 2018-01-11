@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+  line-height: 1.2;
+}
+
+h1 {
+	text-align: center;
+}
+
+div#dida {
+	position: relative;
+  top:80px;
+   font-family: 'Spectral', serif;
+  font-size: 20px;
+  line-height: 180%;
+  border-style: solid;
+  border-color: black; 
+} 

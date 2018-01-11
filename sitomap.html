@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <title>Foodmap</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="node_modules/nvd3/build/nv.d3.min.css" type="text/css" media="screen">
+        
+<!--         <link href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.js"></script> -->
+
+        <script src="node_modules/d3/d3.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="node_modules/d3-queue/build/d3-queue.js" type="text/javascript" charset="utf-8"></script>
+        <script src="node_modules/colorbrewer/colorbrewer.js" type="text/javascript" charset="utf-8"></script>
+        <script src="node_modules/nvd3/build/nv.d3.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <style>
+div.tooltip {
+    position: absolute;   
+    text-align: center;   
+    width: 65px;     
+    height: 58px;     
+    padding: 2px;    
+    font: 12px sans-serif;  
+    background: white; 
+    border: 1px solid black;  
+    border-radius: 4px;   
+    pointer-events: none;   
+}
+  
+</style>
+    </head>
+    <body id="index">
+        <div class="container">
+            <div class="row">
+                <div id="mappa" class="col-xs-12" style="position: relative; margin-left: -80px">
+                    
+                </div>
+
+
+                <div class="col-xs-12 titolo_col1" id="colonna1"> <h4>Seleziona uno stato</h4>
+                </div>
+
+            </div>
+
+
+<div align= "center">
+
+ <p id="GotVsTWd"> 
+
+<p style="position: relative; margin-left: -194px">   <input name="updateButton" 
+                 type="button" 
+                 id="buttonor"
+                value=  "TORNA ALLA MAPPA INIZIALE"
+                onclick="updatefile1()" /> 
+                </p>
+</div>
+
+
+
+
+            <div class="row">
+
+            <div class="row">
+                <div id="chart1" class="col-md-5">
+                    
+                </div>
+                <div id="chart2" class="col-md-5">
+                   
+                </div>
+               
+            </div>
+        </div>
+        
+        
+        <script src="./js/main_pr_def.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

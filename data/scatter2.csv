@@ -1,0 +1,67 @@
+State,Permeabilità,Pervasività,Manufacturer,qq2,qq3,Emigrati,Immigrati
+Afghanistan,0,5,Poco permeabile molto pervasivo,20,1,2.135453,0
+Algeria,0,9,Poco permeabile molto pervasivo,24,5,1.207987,0
+Argentina,3,4,Molto permeabile poco pervasivo,7,28,0.92373,1.343685
+Australia,2,0,Poco permeabile poco pervasivo,8,61,0.429255,5.427007
+Austria,2,5,Poco permeabile molto pervasivo,38,31,0.583692,1.23137
+Bangladesh,1,3,Poco permeabile poco pervasivo,17,14,4.962553,1.075083
+Brazil,5,7,Molto permeabile molto pervasivo,12,43,1.344154,0.670228
+Brunei,4,3,Molto permeabile poco pervasivo,7,12,0.022997,0.146529
+Cambodia,5,5,Molto permeabile molto pervasivo,12,9,0.343386,0.333284
+Canada,3,4,Molto permeabile poco pervasivo,24,61,1.158387,7.01391
+Cape Verde,1,3,Poco permeabile poco pervasivo,6,1,0.186208,0.010717
+China,0,6,Poco permeabile molto pervasivo,80,26,8.236206,0
+Colombia,5,6,Molto permeabile molto pervasivo,19,21,2.018489,0.10441
+Denmark,3,3,Molto permeabile poco pervasivo,9,34,0.253641,0.475791
+Ecuador,3,4,Molto permeabile poco pervasivo,7,15,1.139857,0.337449
+Egypt,1,2,Poco permeabile poco pervasivo,50,15,3.445416,0.137478
+Ethiopia,1,4,Poco permeabile poco pervasivo,22,4,0.593961,0.465099
+France,4,6,Molto permeabile molto pervasivo,74,49,1.688519,6.493705
+Germany,1,5,Poco permeabile molto pervasivo,46,49,3.403769,9.778829
+Ghana,0,2,Poco permeabile poco pervasivo,6,7,0.664577,0
+Greece,2,7,Poco permeabile molto pervasivo,54,26,1.170383,1.132314
+Hungary,3,4,Molto permeabile poco pervasivo,26,27,0.452127,0.283954
+India,2,4,Poco permeabile poco pervasivo,93,39,11.05369,5.337042
+Indonesia,0,6,Poco permeabile molto pervasivo,50,37,2.321254,0.084004
+Iraq,3,5,Molto permeabile molto pervasivo,33,5,1.455647,0.067211
+Ireland,2,4,Poco permeabile poco pervasivo,25,24,0.722958,0.891384
+Islamic Republic of Iran,0,5,Poco permeabile molto pervasivo,24,18,1.289333,2.107945
+Israel,0,6,Poco permeabile molto pervasivo,31,25,0.277516,2.724056
+Italy,0,7,Poco permeabile molto pervasivo,94,51,3.378098,4.359515
+Jamaica,3,6,Molto permeabile molto pervasivo,27,6,0.983414,0.014141
+Japan,4,6,Molto permeabile molto pervasivo,52,46,0.741322,2.173318
+Jordan,0,3,Poco permeabile poco pervasivo,8,11,0.31875,2.08387
+Kyrgyzstan,0,0,Poco permeabile poco pervasivo,3,3,0.558542,0.212229
+Lebanon,0,5,Poco permeabile molto pervasivo,76,18,0.637885,0
+Lithuania,1,6,Poco permeabile molto pervasivo,9,9,0.417277,0.128403
+Malaysia,4,6,Molto permeabile molto pervasivo,26,40,1.478326,2.301379
+Malta,5,5,Molto permeabile molto pervasivo,8,8,0.105396,0.011032
+Mexico,4,5,Molto permeabile molto pervasivo,68,34,11.852168,0.72251
+Morocco,0,5,Poco permeabile molto pervasivo,28,15,3.014203,0
+Myanmar,1,7,Poco permeabile molto pervasivo,19,7,0.471063,0.077262
+Nepal,2,4,Poco permeabile poco pervasivo,29,11,0.910412,0.899193
+Nigeria,0,4,Poco permeabile poco pervasivo,14,14,0.914497,0.90553
+Pakistan,0,5,Poco permeabile molto pervasivo,30,11,4.522568,0
+Peru,6,5,Molto permeabile molto pervasivo,34,19,1.060982,0.037017
+Philippines,3,6,Molto permeabile molto pervasivo,57,30,4.236714,0.224175
+Poland,3,5,Molto permeabile molto pervasivo,23,29,3.067459,0.804684
+Portugal,2,5,Poco permeabile molto pervasivo,40,25,2.150684,0.91789
+Puerto Rico,1,1,Poco permeabile poco pervasivo,2,16,1.671508,0.202051
+Romania,3,7,Molto permeabile molto pervasivo,25,16,2.765081,0.112813
+Russian Federation,1,3,Poco permeabile poco pervasivo,59,29,10.090212,11.792769
+Saudi Arabia,2,3,Poco permeabile poco pervasivo,14,18,0.168509,7.166291
+Singapore,3,4,Molto permeabile poco pervasivo,28,37,0.280523,1.878916
+South Africa,1,4,Poco permeabile poco pervasivo,34,24,0.849689,1.86289
+South Korea,5,5,Molto permeabile molto pervasivo,63,37,2.035673,0.511497
+Spain,2,4,Poco permeabile poco pervasivo,49,46,1.311421,6.896159
+Switzerland,4,4,Molto permeabile poco pervasivo,31,29,0.396699,1.467667
+Syria,0,3,Poco permeabile poco pervasivo,23,3,0.85952,0
+Thailand,3,5,Molto permeabile molto pervasivo,51,32,0.783014,0.931705
+Tunisia,2,5,Poco permeabile molto pervasivo,20,8,0.634646,0.024559
+Turkey,2,2,Poco permeabile poco pervasivo,68,32,4.239952,1.283754
+Ukraine,2,3,Poco permeabile poco pervasivo,19,18,6.001558,4.932326
+United Kingdom,1,5,Poco permeabile molto pervasivo,75,71,4.561314,6.794529
+Uzbekistan,2,3,Poco permeabile poco pervasivo,15,3,1.76215,0.830117
+Venezuela,4,5,Molto permeabile molto pervasivo,12,21,0.508853,0.981016
+Vietnam,0,6,Poco permeabile molto pervasivo,20,23,2.193295,0
+Yemen,0,4,Poco permeabile poco pervasivo,30,2,1.120289,0.312199

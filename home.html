@@ -1,0 +1,271 @@
+<html>
+  <head> 
+  <title> Cotto e viaggiato </title>
+  <meta charset="utf-8">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.js"></script>
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="node_modules/nvd3/build/nv.d3.min.css" type="text/css" media="screen">
+        
+        <script src="node_modules/d3/d3.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="node_modules/d3-queue/build/d3-queue.js" type="text/javascript" charset="utf-8"></script>
+        <script src="node_modules/colorbrewer/colorbrewer.js" type="text/javascript" charset="utf-8"></script>
+        <script src="node_modules/nvd3/build/nv.d3.min.js" type="text/javascript" charset="utf-8"></script>
+     <script src="https://d3js.org/d3.v4.min.js"></script>
+         <script src="https://d3js.org/d3.v3.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="CSS/sito.css">
+  <link rel="stylesheet" type="text/css" href="CSS/scatterplot.css">
+  <link rel="stylesheet" type="text/css" href="CSS/cerchio.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+
+  </head>
+
+<body> 
+<div class="wrapper cf">
+
+<div class="header">
+
+<h1>
+
+  <p>COTTO E VIAGGIATO</p>
+</h1>
+</div>
+  <div id="sidebar" class="sidebar">
+     <!-- <h3>Menu</h3> -->
+    <ul> 
+        <li><a href="#primo"> Introduzione </a></li>
+        <li><a href="#secondo"> 21 Instagrammi </a></li>
+        <li><a href="#terzo"> I piatti nel mondo </a></li>
+        <li><a href="#quarto"> Tre Paesi, sei cucine </a></li>
+        <li><a href="#quinto"> Tutto qui? </a></li>
+        <li><a href="#sesto"> Chi siamo? </a></li>
+      </ul>
+  </div>
+  
+  <div class="content">
+    <a class="anchor" id="primo"></a>
+   <h1 >I flussi migratori del passato a partire dalla diffusione delle cucine tipiche nel mondo.</h1>
+
+    <p class=par >Chi pronuncia la parola “cultura” riferita a un popolo non può in alcun modo non pensare ai piatti tipici propri di quel popolo. Ma in un mondo sempre più liquido, in cui i popoli si muovono, emigrano, si confondono, la diffusione della cucina caratteristica può essere un indicatore affidabile della capacità di questi popoli di integrarsi in un Paese che non è il loro? Possiamo ricostruire i movimenti migratori a partire dal numero di fotografie postate sui social scattate ai piatti tipici di una cultura in un Paese? Cosa può dirci Instagram sull’elasticità di un Paese a accettare, accogliere e far sua una cultura straniera? Per rispondere a queste e fare altre analisi su questo argomento, abbiamo avviato un progetto che attraverso la raccolta degli hashtag su Instagram dei post relativi al cibo, all’interno della tendenza che prende il nome di “foodporn”, e geolocalizzandoli (rintracciando le coordinate per determinare in maniera precisa il luogo in cui è stata scattata la foto), cercasse di rintracciare un rapporto tra il numero di foto dei piatti, raccolti per nazionalità, e i flussi migratori del passato capaci di spiegarne la diffusione in uno specifico Paese. Le analisi si basano su 37.704 post Instagram (di cui 1/3 geolocalizzati) riferiti al periodo 2011-2017, raccolti a intervalli di una settimana l'uno dall'altro in 180 paesi e riferiti a 127 ricette. 
+<div>
+    <iframe id="sc0" src="scatterplot_0.html" width="1000" height="600" frameborder="0"></iframe>
+</div>
+    <div id="dida">
+    A ogni nazione abbiamo assegnato due indici: uno di permeabilità alle cucine dei migranti e uno di diffusione della propria cucina nel mondo, incrociando i dati delle migrazioni con quelli delle menzioni geolocalizzate su internet.
+Le nazioni che hanno mostrato un risultato significativo in questo senso sono state poi plottate per numero assoluto di emigrati ed immigrati. Come è possibile vedere, seppur non essendoci un clustering netto, si riscontra che le nazioni meno permeabili sono quelle con meno migranti in numero assoluto. Come si può vedere dal grafico, l'Italia e l'Algeria sono molto pervasive, riescono a fare una bandiera della propria gastronomia. Il Perù, invece, è un crogiolo di tradizioni culinarie diverse. I Paesi come il Ghana, invece, non riescono a esportare i propri piatti e neppure a includere ricette estere (complice anche la scarsa immigrazione verso il Paese in questione). 
+</div>
+<iframe id="sc" src="scatterplot.html" width="1000" height="600" frameborder="0"></iframe>
+<div id="didina">
+In questo grafico abbiamo proiettato le nazioni classificate in precedenza in base ai parametri del numero di immigrati ed emigrati. Non emerge alcun cluster particolare ma risulta, comunque, interessante notare, ad esempio, che la Russia, pur essendo il Paese con il numero maggiore di emigrati e immigrati, è classificata come poco pervasiva e poco permeabile. 
+</div>
+<iframe id="sc1" src="barchart.html" width="1000" height="600" frameborder="0"></iframe>
+<div id="didina2">
+Il grafico mostra il numero di emigrati e il numero di immigrati, ordinati in base a quest'ultimo, per ciascun Paese.
+</div>
+<iframe id="sc2" src="barchart_cuc.html" width="1000" height="600" frameborder="0"></iframe>
+<div id="didina3">
+Numero di menzioni assolute della cucina di ogni paese e numero di paesi diversi in cui viene menzionata.
+</div>  
+    </p>  
+    
+
+<div class="content2">
+    <p class=par>
+      <a class="anchor" id="secondo"></a>
+<h1>21 Instagrammi</h1>
+<div id="cerchio">
+      </div>
+    <script src="./js/cerchio.js"></script>
+<div id="dida2"
+<br> Nel grafico di sinistra sono rappresentati #il numero di post Instagram aventi come mention nel commento una ricetta tipica di un Paese diverso dal proprio, divisi per Paese (divisi per geolocalizzazione). Nel grafico di destra, invece, sono raggruppati per cucina il numero di post Instagram con riferimento alla geolocalizzazione del post. Australia, Canada e Giappone sono i Paesi che postano sul social più foto a tema cibo estero, ma questi post (e tutti gli altri raccolti) rappresentano nella maggior parte dei casi piatti italiani, indiani e cinesi che sono, dunque, quelli che più probabilmente incontriamo facendo scroll-down sull'app di Instagram.   
+</div>
+</p>
+</div>
+
+<div class="content3">
+    <p class=par > 
+    <a class="anchor" id="terzo""></a>
+    <h1>I piatti nel mondo </h1>
+    Clicca su un Paese della mappa per vedere la distribuzione della tradizione gastronomica nel mondo.
+    </p> 
+   <iframe src="sitomap.html" width="1600" height="900" frameborder="0"></iframe>
+</div>
+
+   
+
+
+
+
+<div class="content4">
+
+    <p class=par >
+    <a class="anchor" id="quarto""></a>
+    <h1>Tre Paesi, sei cucine</h1>
+    <h2>Clicca su una bandiera per leggere una storia</h2>
+   
+<div id="rimandi">
+   <a href="sito2.html">
+  <img src="./img/Cattura1.png" alt="sito2.html" style="width:320px;height:250px;border: 1px solid black; padding: 0px; position:left;">
+</a>
+
+   <a href="sito3.html">
+  <img src="./img/cattura3.png" alt="sito3.html" style="width:320px;height:250px;border:0;position: center; border: 1px solid black;padding: 0px;">
+</a>
+
+   <a href="sito4.html">
+  <img src="./img/cattura2.png" alt="sito4.html" style="width:320px;height:250px;border:0;position:right; border: 1px solid black;padding: 0px;">
+</a>
+    </div>
+
+    </p>
+
+  </div>
+
+
+
+<div class="content5">
+
+<div id="Conclusioni">
+
+    <p class=par>
+      <a class="anchor" id="quinto""></a>
+      <h1>Tutto qui? </br> Vorrei saperne di più</h1>
+    Per leggere l'articolo integrale del progetto, clicca sul link. 
+  <a href="art.html">Vai all'articolo</a>
+    </p>
+    </div>
+    </div>
+
+
+<div class="content6">
+<div id= "bio">
+    <p class=par> 
+      <a class="anchor" id="sesto""></a>
+      <h1>Chi siamo? </h1> </br> Questi sono i membri che hanno realizzato il progetto. Clicca sulla foto per vedere la loro pagina Linkedin.</p>    
+
+    <div class= "fotina1">
+     <a href="https://it.linkedin.com/in/daniele-campisano-99809395" target="_blank">
+  <img src="./img/sugo-alla-amatriciana-spaghetti.jpg" alt="https://it.linkedin.com/in/daniele-campisano-99809395" width="300" height="200">
+</a>
+</br>Daniele Campisano
+  </div>
+
+<div class= "fotina2">
+ <a href="https://www.linkedin.com/in/gianmarco-giannelli-90103a116?ppe=1" target="_blank">
+  <img src="./img/orecchiette-pasta-1043396_640.jpg" alt="https://www.linkedin.com/in/gianmarco-giannelli-90103a116?ppe=1" width="300" height="200">
+</a>
+</br>Gianmarco Giannelli
+</div>
+  
+<div class= "fotina3">
+ <a href="https://it.linkedin.com/in/stefano-mazzuca-97772463" target="_blank">
+  <img src="./img/1312733901_0.jpg" alt="https://it.linkedin.com/in/stefano-mazzuca-97772463" width="300" height="200">
+</a>
+</br>Stefano Mazzuca
+  </div>
+
+</div>
+
+</div>
+
+
+  </div>
+
+
+
+
+
+
+
+  </div>
+
+  
+
+ 
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = "./img/campi.png";
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal2');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption2");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = "./img/19477961_1353313221456611_288187921_n.jpg";
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal3');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img03");
+var captionText = document.getElementById("caption3");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = "./img/19415971_1353313228123277_21973065_n.jpg";
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+<div class="footer"> <p>Realizzato da Daniele Campisano, Gianmarco Giannelli, Stefano Mazzuca per il Master in Big Data and Social Mining dell'Università di Pisa. <br> Realizzato il 29/06/2017.</p>
+
+<p id="logo">
+<img src="./img/logo.png">
+</p>
+
+</div>
+
+
+
+</body>
+
+</html>
+
