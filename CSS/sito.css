@@ -41,14 +41,13 @@ body{
 
 .header>h1 {
  padding: 15px;
- background-image: url(agriculture-1793403_1920-iloveimg-cropped.jpg) no-repeat center center;
-
-
-    background-attachment: fixed;
+ background-image: url(agriculture-1793403_1920-iloveimg-cropped.jpg);
+ background-repeat: no-repeat;
+ 
  height:660px;
 
  margin-top: 0px;
-/* position: relative;*/
+ position: relative;
 
 }
 
