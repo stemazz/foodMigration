@@ -42,7 +42,8 @@ header
 
 .header>h1 {
  padding: 15px;
- background-image: url(agriculture-1793403_1920-iloveimg-cropped.jpg);
+ background-image: url(agriculture-1793403_1920-iloveimg-cropped.jpg) 0 no-repeat;
+
  height:660px;
  width: 100%;
  margin-top: 0px;
