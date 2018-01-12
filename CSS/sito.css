@@ -43,10 +43,10 @@ header
  padding: 15px;
  background-image: url(agriculture-1793403_1920-iloveimg-cropped.jpg);
  background-repeat: no-repeat;
- height:660px;
+ height:100%;
  width: 100%;
  margin-top: 0px;
- position: center;
+ position: relative;
 
 }
 
