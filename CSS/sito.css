@@ -74,6 +74,23 @@ header
 
 
 
+.carousel-caption h1 {
+background-color: white;
+  opacity: 0.5;
+   position: center;
+   top:100px; 
+   text-align: center;
+   color: black;
+   padding-top: 20px;
+  font-size: 80;
+  font-family: 'Josefin Sans', sans-serif;
+  border-style: solid;
+  border-color: black; 
+  width:800px;
+  margin: 50px;
+  margin-left: 220px;
+}
+
 
 
 
@@ -137,23 +154,6 @@ li a:hover:not(.active) {
 }
  
 
-
-div.header>h1>p {
-background-color: white;
-  opacity: 0.5;
-   position: center;
-   top:100px; 
-   text-align: center;
-   color: black;
-   padding-top: 20px;
-  font-size: 80;
-  font-family: 'Josefin Sans', sans-serif;
-  border-style: solid;
-  border-color: black; 
-  width:800px;
-  margin: 50px;
-  margin-left: 220px;
-}
 
 div#scatter {
   top:50px;
