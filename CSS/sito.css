@@ -32,8 +32,7 @@ body{
     box-shadow:inset 0 -1px 5px rgba(0,0,0,0.6);
     background-attachment: fixed;
 
-}*/
-
+}
 
 .header{
   position:center;
@@ -53,7 +52,30 @@ body{
 
 .header>h2 {
   height: 310px;
+}*/
+
+header
+{
+    position:relative;
+    height: 100%;
+    background:#fff url(agriculture-1793403_1920-iloveimg-cropped.jpg) no-repeat center center;
+    background-size:cover;
+    box-shadow:inset 0 -1px 5px rgba(0,0,0,0.6);
+    background-attachment: fixed;
+
 }
+
+.container.struttura {
+  width: auto;
+  background-color: #efe8e7;
+  /*background-color: #e9e9e9;*/
+  /*background-color: black;*/
+}
+
+
+
+
+
 
 a.anchor {
     display: block;
